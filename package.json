@@ -1,0 +1,19 @@
+{
+  "name": "@iamyoujared/essentialsds",
+  "version": "2.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc src/*.ts src/essentials/*.ts --outDir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jared Ortega <jaredortega2715@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
